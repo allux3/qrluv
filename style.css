@@ -1,0 +1,127 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    padding: 0;
+}
+
+@font-face {
+  font-family: league;
+  src: url(leaguegothic-regular-webfont.woff);
+}
+
+.wrapper-div{
+    position:relative;
+    border-radius: 2px;
+    border-color: aqua;
+    margin: 0 auto;
+    width:100%;
+    height: 100%;
+    max-height:100%;
+    max-width:100%;
+    background-color: yellow;
+}
+
+.content-div{
+    
+    width:100%;
+    max-width:100%;
+    height: 100%;
+    max-height:90%;
+    background-color: black;
+    border-color:black;
+    border-radius: 4px;
+    margin:0 auto;
+    text-align:center;
+}
+
+
+
+.info{
+    width:100%;
+    height: 20%;
+    border-width: medium;
+    /*border-color: #ccc;*/
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 30px;
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    clear:both;
+    
+}
+#header{
+    line-height: 1.0;
+    font-size:19vmin;
+    text-align: left;
+    margin-left: 70px;
+    margin-top:100px;
+    font-family: league;
+     color: transparent;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+    
+    
+}
+#pic{
+    width:200px;
+    height:80px;
+}
+#text{
+     line-height: 1.3;
+    font-size:5vmin;
+    text-align: left;
+    margin-left: 70px;
+    color: transparent;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: white;
+    font-family:"Helvetica Neue", "sans-serif";
+}
+#la{
+    
+  position: relative;
+  top: 50%;
+    width:40%;
+    height:10%;
+    border-radius: 5px;
+    border: 2px solid #000;
+
+    background-color: black;
+    color: white;
+    font-size:3vmin;
+    font-family: "Helvetica Neue", "sans-serif";
+   
+    
+}
+
+#la:hover{
+    cursor: pointer;
+}
+
+
+#explanation{
+    
+    color:black;
+    display: inline-block;
+    bottom:0;
+    right:0;
+    text-align: center;
+    margin:3%;
+    font-family: "Helvetica Neue", "sans-serif";
+    font-style: normal;
+    font-size:  4vmin;
+    font-variant: normal;
+    font-weight: 700;
+    padding:1%;
+    color: whitesmoke;
+   
+    
+    
+}
+button:hover{
+    cursor:pointer;
+}
+
+
